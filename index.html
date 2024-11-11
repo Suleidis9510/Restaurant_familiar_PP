@@ -12,6 +12,11 @@
       href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -30,18 +35,6 @@
           />
         </div>
         <!-- Aquí puedes agregar los ítems del menú de entrantes -->
-      </section>
-
-      <section id="bebidas" class="mb-5">
-        <h2 class="text-center">Bebidas</h2>
-        <div class="text-center">
-          <img
-            src="assets/drinks-7279423_1280.jpg"
-            alt="Imagen de Bebidas"
-            class="img-fluid"
-          />
-        </div>
-        <!-- Aquí puedes agregar los ítems del menú de bebidas -->
       </section>
 
       <section id="plato-principal" class="mb-5">
@@ -67,45 +60,82 @@
         </div>
         <!-- Aquí puedes agregar los ítems del menú de postres -->
       </section>
+      <section id="bebidas" class="mb-5">
+        <h2 class="text-center">Bebidas</h2>
+        <div class="text-center">
+          <img
+            src="assets/drinks-7279423_1280.jpg"
+            alt="Imagen de Bebidas"
+            class="img-fluid"
+          />
+        </div>
+        <!-- Aquí puedes agregar los ítems del menú de bebidas -->
+      </section>
     </div>
 
-    <footer class="bg-dark text-light py-4">
+    <footer class="bg-dark text-light py-5">
       <div class="container">
-        <!-- Horarios -->
-        <div class="mb-4">
-          <h5 class="text-muted">
-            <i class="fas fa-clock me-2"></i> Horario de Atención
-          </h5>
-          <p><strong>Lunes a Viernes:</strong> 9:00 AM - 10:00 PM</p>
+        <!-- Sección de descripción -->
+        <div class="row mb-4">
+          <div class="col-md-6">
+            <h5 class="mb-3">Sobre Nosotros</h5>
+            <p>
+              Disfruta de una experiencia gastronómica única en el corazón de
+              nuestra ciudad. Ofrecemos una amplia variedad de platos preparados
+              con ingredientes frescos y de calidad.
+            </p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <!-- Redes sociales -->
+            <h5 class="mb-3">Síguenos</h5>
+            <a href="#" target="_blank" class="me-3" aria-label="Facebook"
+              ><i class="fab fa-facebook fa-lg" style="color: #1877f2"></i
+            ></a>
+            <a href="#" target="_blank" class="me-3" aria-label="Instagram"
+              ><i class="fab fa-instagram fa-lg" style="color: #c13584"></i
+            ></a>
+          </div>
         </div>
 
-        <!-- Ubicación -->
-        <div class="mb-4">
-          <h5 class="text-muted">
-            <i class="fas fa-map-marker-alt me-2"></i> Dirección
-          </h5>
-          <p>123 Calle Principal, Ciudad Ejemplo, Cuba</p>
-          <a
-            href="https://www.google.com/maps"
-            target="_blank"
-            class="text-danger"
-            >Mostrar en el mapa</a
-          >
-        </div>
-
-        <!-- Contacto -->
-        <div class="mb-4">
-          <h5 class="text-muted">
-            <i class="fas fa-comment me-2"></i> Contacto
-          </h5>
-          <p><strong>Propietario:</strong> Victor Manuel Leyva Bruzón</p>
-          <p>
-            <strong>Teléfono:</strong>
+        <!-- Información adicional -->
+        <div class="row text-white">
+          <!-- Horarios -->
+          <div class="col-md-4 mb-4">
+            <h6><i class="fas fa-clock me-2"></i> Horario de Atención</h6>
+            <p><strong>Lunes a Viernes:</strong> 9:00 AM - 10:00 PM</p>
+          </div>
+          <!-- Ubicación -->
+          <div class="col-md-4 mb-4">
+            <h6><i class="fas fa-map-marker-alt me-2"></i> Dirección</h6>
+            <p>123 Calle Principal, Ciudad Ejemplo, Cuba</p>
             <a
-              href="https://wa.me/5354276698"
-              class="text-decoration-none text-light"
-              >+53 54 27 66 98</a
+              href="https://www.google.com/maps"
+              target="_blank"
+              class="text-info text-decoration-underline"
+              >Mostrar en el mapa</a
             >
+          </div>
+          <!-- Contacto -->
+          <div class="col-md-4 mb-4">
+            <h6><i class="fas fa-comment me-2"></i> Contacto</h6>
+            <div class="d-flex align-items-center">
+              <p class="mb-0 me-2">Victor Manuel Leyva Bruzón</p>
+              <a
+                href="https://wa.me/5354276698"
+                target="_blank"
+                class="text-decoration-none"
+                aria-label="WhatsApp"
+              >
+                <i class="fab fa-whatsapp fa-lg" style="color: #25d366"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sección final -->
+        <div class="text-center mt-4">
+          <p class="mb-0">
+            &copy; 2024 Restaurante Familiar. Todos los derechos reservados.
           </p>
         </div>
       </div>
